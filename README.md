@@ -1,2 +1,2 @@
 # test-python
-begin
+begin and learn somethong.
