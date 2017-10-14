@@ -57,6 +57,7 @@ for i in range(5):
     k=k+i
     print(k)
 '''
+'''
 def ask_ok(prompt, retries=4, reminder='Please try again!'):
     while True:
         ok = input(prompt)
@@ -69,3 +70,9 @@ def ask_ok(prompt, retries=4, reminder='Please try again!'):
             raise ValueError('invalid user response')
         print(reminder)
 #ask_ok('Do you really want to quit?')
+'''
+def cylinder_volume(height, radius):
+    pi = 3.14159
+    return height * pi * radius ** 2
+
+print(cylinder_volume(10,3))
