@@ -76,3 +76,14 @@ def cylinder_volume(height, radius):
     return height * pi * radius ** 2
 
 print(cylinder_volume(10,3))
+
+
+x = 50
+
+def func(x):
+    print ('x is'+ x)
+    x = 2
+    print ('Changed local x to' + x)
+
+func(x)
+print ('x is still' + x)
